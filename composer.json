@@ -1,16 +1,9 @@
 {
-    "name": "gluedev/laravel-stackdriver",
-    "version": "0.2.2",
-    "description": "Enables logging, tracing and error reporting to Google Stackdriver for the Laravel framework",
+    "name": "smoopins/laravel-stackdriver",
+    "version": "0.3.0",
+    "description": "Enables logging, tracing and error reporting to Google Stackdriver for the Laravel framework, forked from GlueDev/laravel-stackdriver",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Diederik van den Burger",
-            "email": "diederik@glue.group",
-            "homepage": "https://glue.group"
-        }
-    ],
-    "homepage": "https://github.com/gluedev/laravel-stackdriver",
+    "homepage": "https://github.com/smoopins/laravel-stackdriver",
     "keywords": [
         "Laravel",
         "Google",
@@ -23,7 +16,7 @@
         "illuminate/support": ">=5.7",
         "google/cloud-error-reporting": "^0.16.2",
         "google/cloud-logging": "^1.14",
-        "opencensus/opencensus": "^0.5.2",
+        "opencensus/opencensus": "^0.7.0",
         "opencensus/opencensus-exporter-stackdriver": "^0.1",
         "php": ">=7.1"
     },
@@ -36,11 +29,6 @@
     "autoload": {
         "psr-4": {
             "GlueDev\\Laravel\\Stackdriver\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "GlueDev\\Laravel\\Stackdriver\\Tests\\": "tests"
         }
     },
     "extra": {
