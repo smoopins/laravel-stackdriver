@@ -1,6 +1,6 @@
 {
     "name": "smoopins/laravel-stackdriver",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "Enables logging, tracing and error reporting to Google Stackdriver for the Laravel framework, forked from GlueDev/laravel-stackdriver",
     "license": "MIT",
     "homepage": "https://github.com/smoopins/laravel-stackdriver",
