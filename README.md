@@ -1,8 +1,7 @@
 
 # Laravel Stackdriver
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
+Forked from the original [GlueDev/laravel-stackdriver](https://github.com/GlueDev/laravel-stackdriver)
 
 Enables logging, tracing and error reporting to Google Stackdriver for Laravel.
 Requires PHP >= 7.1
@@ -15,7 +14,7 @@ Requires PHP >= 7.1
 Via Composer
 
 ``` bash
-composer require gluedev/laravel-stackdriver
+composer require smoopins/laravel-stackdriver
 ```
 
 And publish the config file
@@ -117,4 +116,4 @@ Please see the [license file](LICENSE.md) for more information.
 [link-packagist]: https://packagist.org/packages/gluedev/laravel-stackdriver
 [link-downloads]: https://packagist.org/packages/gluedev/laravel-stackdriver
 [link-author]: https://github.com/diederikvandenb
-[link-contributors]: ../../contributors]
+[link-contributors]: ../../graphs/contributors
