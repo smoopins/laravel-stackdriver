@@ -12,7 +12,7 @@
         "Error Reporting"
     ],
     "require": {
-        "illuminate/support": "^5.7",
+        "illuminate/support": "^9.5",
         "google/cloud-error-reporting": "^0.16",
         "google/cloud-logging": "^1.23",
         "opencensus/opencensus": "^0.7.0",
@@ -20,9 +20,9 @@
         "php": ">=7.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "~7.5",
+        "phpunit/phpunit": "~9.5",
         "mockery/mockery": "^1.3",
-        "orchestra/testbench": "~3.8",
+        "orchestra/testbench": "~7.2",
         "sempro/phpunit-pretty-print": "^1.4"
     },
     "autoload": {
