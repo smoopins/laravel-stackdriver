@@ -12,28 +12,28 @@
         "Error Reporting"
     ],
     "require": {
-        "illuminate/support": ">=5.7",
-        "google/cloud-error-reporting": "^0.16.2",
-        "google/cloud-logging": "^1.14",
+        "illuminate/support": "^5.7",
+        "google/cloud-error-reporting": "^0.16",
+        "google/cloud-logging": "^1.23",
         "opencensus/opencensus": "^0.7.0",
         "opencensus/opencensus-exporter-stackdriver": "^0.1",
         "php": ">=7.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "~7.0",
-        "mockery/mockery": "^1.1",
-        "orchestra/testbench": "~3.0",
-        "sempro/phpunit-pretty-print": "^1.0"
+        "phpunit/phpunit": "~7.5",
+        "mockery/mockery": "^1.3",
+        "orchestra/testbench": "~3.8",
+        "sempro/phpunit-pretty-print": "^1.4"
     },
     "autoload": {
         "psr-4": {
-            "GlueDev\\Laravel\\Stackdriver\\": "src/"
+            "Smoopins\\Laravel\\Stackdriver\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "GlueDev\\Laravel\\Stackdriver\\StackdriverServiceProvider"
+                "Smoopins\\Laravel\\Stackdriver\\StackdriverServiceProvider"
             ]
         }
     },

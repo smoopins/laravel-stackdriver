@@ -1,6 +1,6 @@
 <?php
 
-namespace GlueDev\Laravel\Stackdriver;
+namespace Smoopins\Laravel\Stackdriver;
 
 use Google\Cloud\Logging\LoggingClient;
 use Google\Cloud\Logging\PsrLogger;

@@ -1,6 +1,6 @@
 <?php
 
-namespace GlueDev\Laravel\Stackdriver;
+namespace Smoopins\Laravel\Stackdriver;
 
 use Google\Cloud\Core\Report\SimpleMetadataProvider;
 use Google\Cloud\ErrorReporting\Bootstrap;
