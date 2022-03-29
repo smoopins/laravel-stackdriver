@@ -20,7 +20,7 @@ composer require smoopins/laravel-stackdriver
 And publish the config file
 
 ``` bash
-php artisan vendor:publish --provider="GlueDev\Laravel\Stackdriver\StackdriverServiceProvider"
+php artisan vendor:publish --provider="Smoopins\Laravel\Stackdriver\StackdriverServiceProvider"
 ```
 
 ## Usage
@@ -58,7 +58,7 @@ Other than changing the values in the config file, logging needs no additional s
 Error reporting requires you to add the following to the `report` function in your `Exceptions/handler.php` 
 
 ``` php
-use GlueDev\Laravel\Stackdriver\StackdriverExceptionHandler;
+use Smoopins\Laravel\Stackdriver\StackdriverExceptionHandler;
 
 /**  
  * Report or log an exception.
@@ -109,11 +109,3 @@ Please see the [changelog](CHANGELOG.md) for more information on what has change
 ## License
 
 Please see the [license file](LICENSE.md) for more information.
-
-[ico-version]: https://img.shields.io/packagist/v/gluedev/laravel-stackdriver.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/gluedev/laravel-stackdriver.svg?style=flat-square
-
-[link-packagist]: https://packagist.org/packages/gluedev/laravel-stackdriver
-[link-downloads]: https://packagist.org/packages/gluedev/laravel-stackdriver
-[link-author]: https://github.com/diederikvandenb
-[link-contributors]: ../../graphs/contributors

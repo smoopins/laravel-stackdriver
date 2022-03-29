@@ -1,6 +1,5 @@
 {
   "name": "laravel-stackdriver",
-  "version": "0.4.0",
   "repository": "git@github.com:smoopins/laravel-stackdriver.git",
   "devDependencies": {
     "standard-version": "^7.0.0"
