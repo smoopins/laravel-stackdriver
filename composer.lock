@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2529c3fff8de2aa0447a3e7e2652fcbd",
+    "content-hash": "a476cae45e8a929f52e7b69cf58b5ee4",
     "packages": [
         {
             "name": "brick/math",
@@ -748,16 +748,16 @@
         },
         {
             "name": "google/cloud-core",
-            "version": "v1.44.0",
+            "version": "v1.44.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-core.git",
-                "reference": "72706f7d1824777f42294a3c9ccdaddaad670017"
+                "reference": "897df2db2f0b04c370c44f8564ae3fd69034e273"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/72706f7d1824777f42294a3c9ccdaddaad670017",
-                "reference": "72706f7d1824777f42294a3c9ccdaddaad670017",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-core/zipball/897df2db2f0b04c370c44f8564ae3fd69034e273",
+                "reference": "897df2db2f0b04c370c44f8564ae3fd69034e273",
                 "shasum": ""
             },
             "require": {
@@ -806,22 +806,22 @@
             ],
             "description": "Google Cloud PHP shared dependency, providing functionality useful to all components.",
             "support": {
-                "source": "https://github.com/googleapis/google-cloud-php-core/tree/v1.44.0"
+                "source": "https://github.com/googleapis/google-cloud-php-core/tree/v1.44.1"
             },
-            "time": "2022-01-31T21:39:13+00:00"
+            "time": "2022-03-30T03:18:53+00:00"
         },
         {
             "name": "google/cloud-error-reporting",
-            "version": "v0.16.5",
+            "version": "v0.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-errorreporting.git",
-                "reference": "1179cc6a23e770ec3d29818f753529ae5abe0a0a"
+                "reference": "e8b929b598fb7b95f3d53a0d25484b1dc5e0ea41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-errorreporting/zipball/1179cc6a23e770ec3d29818f753529ae5abe0a0a",
-                "reference": "1179cc6a23e770ec3d29818f753529ae5abe0a0a",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-errorreporting/zipball/e8b929b598fb7b95f3d53a0d25484b1dc5e0ea41",
+                "reference": "e8b929b598fb7b95f3d53a0d25484b1dc5e0ea41",
                 "shasum": ""
             },
             "require": {
@@ -829,7 +829,7 @@
                 "google/gax": "^1.1"
             },
             "require-dev": {
-                "google/cloud-core": "^1.35",
+                "google/cloud-core": "^1.39",
                 "phpdocumentor/reflection": "^3.0",
                 "phpunit/phpunit": "^4.8|^5.0"
             },
@@ -858,22 +858,22 @@
             ],
             "description": "Stackdriver Error Reporting Client for PHP",
             "support": {
-                "source": "https://github.com/googleapis/google-cloud-php-errorreporting/tree/v0.16.5"
+                "source": "https://github.com/googleapis/google-cloud-php-errorreporting/tree/v0.19.0"
             },
-            "time": "2020-06-19T17:49:03+00:00"
+            "time": "2022-01-12T16:19:20+00:00"
         },
         {
             "name": "google/cloud-logging",
-            "version": "v1.23.0",
+            "version": "v1.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-cloud-php-logging.git",
-                "reference": "310bf568a161159f476e16dac5bb8d64d6fd7063"
+                "reference": "caab5a43de6225f028226c0226121a748ee60a3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-cloud-php-logging/zipball/310bf568a161159f476e16dac5bb8d64d6fd7063",
-                "reference": "310bf568a161159f476e16dac5bb8d64d6fd7063",
+                "url": "https://api.github.com/repos/googleapis/google-cloud-php-logging/zipball/caab5a43de6225f028226c0226121a748ee60a3f",
+                "reference": "caab5a43de6225f028226c0226121a748ee60a3f",
                 "shasum": ""
             },
             "require": {
@@ -922,9 +922,9 @@
             ],
             "description": "Stackdriver Logging Client for PHP",
             "support": {
-                "source": "https://github.com/googleapis/google-cloud-php-logging/tree/v1.23.0"
+                "source": "https://github.com/googleapis/google-cloud-php-logging/tree/v1.24.0"
             },
-            "time": "2022-01-31T21:39:13+00:00"
+            "time": "2022-03-30T03:18:53+00:00"
         },
         {
             "name": "google/cloud-trace",
@@ -1598,16 +1598,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.5.1",
+            "version": "v9.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "35be2599c9ac3d58bf1578895c2e85ea4848a0d7"
+                "reference": "47940a1a8774b96696ed57e6736ccea4a880c057"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/35be2599c9ac3d58bf1578895c2e85ea4848a0d7",
-                "reference": "35be2599c9ac3d58bf1578895c2e85ea4848a0d7",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/47940a1a8774b96696ed57e6736ccea4a880c057",
+                "reference": "47940a1a8774b96696ed57e6736ccea4a880c057",
                 "shasum": ""
             },
             "require": {
@@ -1773,7 +1773,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-03-15T14:41:19+00:00"
+            "time": "2022-03-29T14:41:26+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -6183,16 +6183,16 @@
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v7.2.0",
+            "version": "v7.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "a6f193db075c8d90d39a40cd502bb99113bfb56c"
+                "reference": "7fb2f5f0809051b46188ef1510cc35c851c01340"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/a6f193db075c8d90d39a40cd502bb99113bfb56c",
-                "reference": "a6f193db075c8d90d39a40cd502bb99113bfb56c",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/7fb2f5f0809051b46188ef1510cc35c851c01340",
+                "reference": "7fb2f5f0809051b46188ef1510cc35c851c01340",
                 "shasum": ""
             },
             "require": {
@@ -6200,7 +6200,7 @@
             },
             "require-dev": {
                 "fakerphp/faker": "^1.9.2",
-                "laravel/framework": "^9.5.1",
+                "laravel/framework": "^9.6",
                 "laravel/laravel": "9.x-dev",
                 "mockery/mockery": "^1.4.4",
                 "orchestra/canvas": "^7.0",
@@ -6211,7 +6211,7 @@
             },
             "suggest": {
                 "fakerphp/faker": "Allow using Faker for testing (^1.9.2).",
-                "laravel/framework": "Required for testing (^9.5.1).",
+                "laravel/framework": "Required for testing (^9.6).",
                 "mockery/mockery": "Allow using Mockery for testing (^1.4.4).",
                 "orchestra/testbench-browser-kit": "Allow using legacy Laravel BrowserKit for testing (^7.0).",
                 "orchestra/testbench-dusk": "Allow using Laravel Dusk for testing (^7.0).",
@@ -6271,7 +6271,7 @@
                     "type": "liberapay"
                 }
             ],
-            "time": "2022-03-20T07:06:20+00:00"
+            "time": "2022-03-30T02:26:06+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -6496,16 +6496,16 @@
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "93ebd0014cab80c4ea9f5e297ea48672f1b87706"
+                "reference": "77a32518733312af16a44300404e945338981de3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/93ebd0014cab80c4ea9f5e297ea48672f1b87706",
-                "reference": "93ebd0014cab80c4ea9f5e297ea48672f1b87706",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/77a32518733312af16a44300404e945338981de3",
+                "reference": "77a32518733312af16a44300404e945338981de3",
                 "shasum": ""
             },
             "require": {
@@ -6540,9 +6540,9 @@
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
             "support": {
                 "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
-                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.6.0"
+                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.6.1"
             },
-            "time": "2022-01-04T19:58:01+00:00"
+            "time": "2022-03-15T21:29:03+00:00"
         },
         {
             "name": "phpspec/prophecy",

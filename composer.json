@@ -12,12 +12,12 @@
         "Error Reporting"
     ],
     "require": {
-        "illuminate/support": "^9.5",
-        "google/cloud-error-reporting": "^0.16",
+        "google/cloud-error-reporting": "^0.19",
         "google/cloud-logging": "^1.23",
         "opencensus/opencensus": "^0.7.0",
         "opencensus/opencensus-exporter-stackdriver": "^0.1",
-        "php": ">=7.1"
+        "php": ">=7.1",
+        "illuminate/support": "^9.6"
     },
     "require-dev": {
         "phpunit/phpunit": "~9.5",
